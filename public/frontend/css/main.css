@@ -1,0 +1,2578 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Rubik', sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+
+
+/*////////////////////////////////////*/
+
+/*FORMS */
+
+.ServiceForm {
+
+    margin-top: 8.4rem;
+
+}
+
+
+
+.ServiceForm .topHeading {
+
+    margin: 8.4rem 0;
+
+}
+
+
+
+.ServiceForm .topHeading h1 {
+
+    font-size: 6.1rem;
+
+    text-align: center;
+
+    color: #557D60;
+
+}
+
+
+
+.ServiceForm .topHeading h1 span {
+
+    color: black;
+
+}
+
+
+
+.ServiceForm .topHeading h2 {
+
+    font-size: 3.1rem;
+
+    font-size: 400;
+
+    color: #666666;
+
+    text-align: center;
+
+}
+
+
+
+
+
+.ServiceForm .SelectService {
+
+    width: 128rem;
+
+    justify-content: space-between;
+
+    margin-top: 8.4rem;
+
+}
+
+
+
+.ServiceForm .SelectService .left h1 {
+
+    font-size: 2.5rem;
+
+    font-weight: 600;
+
+    margin-bottom: 4.2rem;
+
+}
+
+
+
+.ServiceForm .SelectService .left h1 span {
+
+    color: #557D60;
+
+    text-decoration: underline;
+
+}
+
+
+
+.ServiceForm .SelectService .left .options .option {
+
+    width: 42.5rem;
+
+    height: 6.6rem;
+
+    border: 1px solid #CAD7CE;
+
+    border-radius: 0.8rem;
+
+    cursor: pointer;
+
+    margin-bottom: 2.4rem;
+
+    font-size: 1.6rem;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+
+
+}
+
+
+
+.ServiceForm .SelectService .left .options .option.active {
+
+    background: #EEF2EF;
+
+    font-weight: 600;
+
+    color: #557D60;
+
+}
+
+
+
+.ServiceForm .SelectService .left .options .option input {
+
+    appearance: none;
+
+    margin-right: .8rem;
+
+    margin-left: 1.6rem;
+
+    webkit-appearance: none;
+
+    border: 1px solid #999999;
+
+    border-radius: 100%;
+
+    width: 2.1rem;
+
+    height: 2.1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.ServiceForm .SelectService .left .options .option input::before {
+
+    content: "";
+
+    width: 1.2rem;
+
+    height: 1.2rem;
+
+    background: #557D60;
+
+    display: none;
+
+    border-radius: 100%;
+
+}
+
+
+
+.ServiceForm .SelectService .left .options .option input:checked::before {
+
+    display: flex;
+
+}
+
+
+
+.CompanyService .left h1 {
+
+    font-size: 2.5rem;
+
+    font-weight: 600;
+
+    margin-bottom: 4.2rem;
+
+}
+
+
+
+.CompanyService .left h1 span {
+
+    color: #557D60;
+
+    text-decoration: underline;
+
+}
+
+
+
+.CompanyService .left .options .option {
+
+    width: 32.5rem;
+
+    height: 5.6rem;
+
+    border: 1px solid #CAD7CE;
+
+    border-radius: .8rem;
+
+    cursor: pointer;
+
+    margin-bottom: 2.4rem;
+
+    font-size: 1.6rem;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+
+
+}
+
+
+
+.CompanyService .left .options .option.active {
+
+    background: #EEF2EF;
+
+    font-weight: 600;
+
+    color: #557D60;
+
+}
+
+
+
+.CompanyService .left .options .option input {
+
+    appearance: none;
+
+    margin-right: .8rem;
+
+    margin-left: 1.6rem;
+
+    webkit-appearance: none;
+
+    border: 1px solid #999999;
+
+    border-radius: 100%;
+
+    width: 2.1rem;
+
+    height: 2.1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.CompanyService .left .options .option input::before {
+
+    content: "";
+
+    width: 1.2rem;
+
+    height: 1.2rem;
+
+    background: #557D60;
+
+    display: none;
+
+    border-radius: 100%;
+
+}
+
+
+
+.CompanyService .left .options .option input:checked::before {
+
+    display: flex;
+
+}
+
+
+
+.CompanyService .left label {
+
+    font-size: 1.6rem;
+
+    color: #666666;
+
+    font-weight: 500;
+
+    margin-bottom: 1.6rem;
+
+}
+
+
+
+.ServiceForm .SelectService .right {
+
+    border: 1px solid #CAD7CE;
+
+    border-radius: .8rem;
+
+    padding: 4.8rem 4.6rem;
+
+    width: 52.2rem;
+
+    height: 55.2rem;
+
+}
+
+
+
+.ServiceForm .SelectService .right h2 {
+
+    font-size: 1.3rem;
+
+    font-weight: 500;
+
+    color: #557D60;
+
+    width: 13.2rem;
+
+    height: 2.8rem;
+
+    background: #EEF2EF;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 4px;
+
+    margin-bottom: .8rem;
+
+}
+
+
+
+.ServiceForm .SelectService .right h1 {
+
+
+
+    font-size: 3.1rem;
+
+    font-weight: 500;
+
+    margin-bottom: 2.4rem;
+
+}
+
+
+
+.ServiceForm .SelectService .Servicebenefits div {
+
+    font-size: 1.6rem;
+
+    color: #666666;
+
+    margin-bottom: 1.6rem;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.ServiceForm .SelectService .Servicebenefits div img {
+
+    margin-right: .8rem;
+
+}
+
+
+
+.ServiceForm .SelectService .btn {
+
+    height: 6rem;
+
+    width: 100%;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+    color: white;
+
+    background: #557D60;
+
+    margin-top: 3.6rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+
+}
+
+
+
+.ServiceForm .SelectService .btn img {
+
+    margin-left: 1.6rem;
+
+}
+
+
+
+.ServiceForm .SelectService p {
+
+    font-size: 1.3rem;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    margin-top: 1.6rem;
+
+}
+
+
+
+.ServiceForm .SelectService p span {
+
+    font-weight: 500;
+
+    color: #557D60;
+
+}
+
+
+
+.LoginRegister {
+
+    margin-top: 12.5rem;
+
+}
+
+
+
+.LoginRegister .container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.LoginRegister .container .left {
+
+    margin-right: 3.1rem;
+
+}
+
+
+
+.LoginRegister .container .left img {
+
+    width: 14.2rem;
+
+    height: 14.2rem;
+
+}
+
+
+
+.LoginRegister .container .left h1 {
+
+    font-size: 6.1rem;
+
+    color: #557D60;
+
+    font-weight: 600;
+
+}
+
+
+
+.LoginRegister .container .left h1 span {
+
+    color: black;
+
+}
+
+
+
+.LoginRegister .container .left p {
+
+    font-size: 2.5rem;
+
+    color: #666666;
+
+    width: 52.1rem;
+
+    margin-top: 1.6rem;
+
+}
+
+
+
+.LoginRegister .container .right {
+
+    width: 72.7rem;
+
+    /* height: 57.6rem; */
+
+    border-radius: 4px;
+
+    background: #FFF;
+
+    box-shadow: 0px 2px 21px 0px rgba(85, 125, 96, 0.40);
+
+    padding: 4.8rem;
+
+}
+
+
+
+.LoginRegister .container .right .top {
+
+    display: flex;
+
+    width: 100%;
+
+    height: 7.2rem;
+
+    border-radius: 999px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    background: #FFF;
+
+    position: relative;
+
+    padding-right: 9.5rem;
+    padding-left: 12rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+.LoginRegister .container .right .top div {
+
+    width: 48%;
+
+    height: 6.4rem;
+
+    border-radius: 5rem;
+
+    background-color: var(--primary-normal, #557D60);
+
+    transition: all .5s ease-in-out;
+
+    position: absolute;
+
+    left: .5rem;
+
+}
+
+
+
+.LoginRegister .container .right .top p {
+
+    font-size: 2.5rem;
+
+    z-index: 100;
+
+    color: black;
+
+    font-weight: 600;
+
+    transition: all .5s ease-in-out;
+
+}
+
+
+
+.LoginRegister .container .right .top p.active {
+
+
+
+    color: #FAFAFA;
+
+}
+
+
+
+.LoginRegister .container .right form {
+
+    margin-top: 3.6rem;
+
+    display: none;
+
+}
+
+
+
+.LoginRegister .container .right form.active {
+
+    display: block;
+
+
+
+}
+
+
+
+.LoginRegister .container .right form .input {
+
+    margin-bottom: 3.6rem;
+
+}
+
+
+
+.LoginRegister .container .right form label {
+
+    font-size: 1.6rem;
+
+    font-weight: 500;
+
+    color: #666666;
+
+}
+
+
+
+.LoginRegister .container .right form input {
+
+    border-radius: 8px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    width: 63rem;
+
+    height: 5.6rem;
+
+    padding: 1.6rem;
+
+    font-size: 1.6rem;
+
+    margin-top: 1.6rem;
+
+}
+
+
+
+.LoginRegister .container .right form a {
+
+    font-size: 1.6rem;
+
+    font-weight: 500;
+
+    color: #666666;
+
+    text-align: right;
+
+    display: flex;
+
+    width: 100%;
+
+    justify-content: flex-end;
+
+}
+
+
+
+.LoginRegister .container .right form button {
+
+    width: 100%;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+    color: white;
+
+    border-radius: 4px;
+
+    background: var(--primary-normal, #557D60);
+
+    height: 6rem;
+
+    margin-top: 3.6rem;
+
+    border-radius: .4rem;
+
+    border: 0;
+
+}
+
+
+
+.LoginRegister .container .right form .phone {
+
+    border-radius: 8px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    width: 63rem;
+
+    height: 5.6rem;
+
+    display: flex;
+
+    padding: 1.6rem;
+
+    font-size: 1.6rem;
+
+    align-items: center;
+
+    margin-top: 1.6rem;
+
+}
+
+
+
+.LoginRegister .container .right form .phone input {
+
+    border: 0;
+
+    height: auto;
+
+    outline: none;
+
+    margin-top: 0;
+
+    width: -webkit-fix-available;
+
+}
+
+
+
+.LoginRegister .container .right form .phone select {
+
+    width: 6.2rem;
+
+    height: 4rem;
+
+    font-size: 1.6rem;
+
+    font-weight: 600;
+
+    border: 0;
+
+    padding-left: .8rem;
+
+    border-radius: .4rem;
+
+    background-color: #EEF2EF;
+
+}
+
+
+
+.LoginRegister .container .right form.register button {
+
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+.regAgent {
+
+    margin-top: 7.1rem;
+
+}
+
+
+
+.regAgent .container {
+
+    width: 128rem;
+
+    margin: auto;
+
+}
+
+
+
+.regAgent .top {
+
+    width: 100%;
+
+}
+
+
+
+.regAgent .top .mainHeading {
+
+    font-size: 3.9rem;
+
+    color: #557D60;
+
+    font-weight: 600;
+
+}
+
+
+
+.regAgent .top .mainHeading span {
+
+    color: black;
+
+}
+
+
+
+.regAgent .top .tabs {
+
+    width: 100%;
+
+    display: flex;
+
+    margin-top: 4.2rem;
+
+    border-bottom: 1px solid #CCCCCC;
+
+}
+
+
+
+/* Your existing styles for buttons */
+
+.regAgent .top .tabs ul li button {
+
+    width: 12.6rem;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+
+    color: #666666;
+
+    height: 4.2rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: transparent;
+
+    border: 0;
+
+}
+
+
+
+/* Additional styles to horizontally align the buttons */
+
+.regAgent .top .tabs ul {
+
+    display: flex;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+
+.regAgent .top .tabs ul li {
+
+    flex: 1;
+
+    text-align: center;
+
+}
+
+
+
+/* Optional: Add spacing between the buttons */
+
+.regAgent .top .tabs ul li+li {
+
+    margin-left: 10px;
+
+    /* Adjust the spacing as needed */
+
+}
+
+
+
+.regAgent .top .tabs ul li button.active {
+
+    color: #557D60;
+
+    border-bottom: 4px solid #557D60;
+
+}
+
+
+
+.regAgent .main {
+
+    margin-top: 4.9rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+
+}
+
+
+
+.regAgent .main .left .Panel {
+
+    display: none;
+
+}
+
+
+
+.regAgent .main .left .Panel.active {
+
+    display: block;
+
+}
+
+
+
+.regAgent .main .left h2 {
+
+    font-size: 2.5rem;
+
+    font-weight: 500;
+
+    color: black;
+
+    margin-bottom: 3.6rem;
+
+}
+
+
+
+.regAgent .main .left p {
+
+    font-size: 1.6rem;
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 1.6rem;
+
+}
+
+
+
+.regAgent .main .left p img {
+
+    margin-right: .8rem;
+
+}
+
+
+
+.regAgent .main .right {
+
+    width: 52.2rem;
+
+    height: 100%;
+
+    position: relative;
+
+    border-radius: 8px;
+
+    background: #EEF2EF;
+
+    padding: 4.5rem 4.7rem 2.4rem;
+
+}
+
+
+
+.regAgent .main .right h2 {
+
+    font-weight: 500;
+
+    font-size: 3.1rem;
+
+    color: #557D60;
+
+}
+
+
+
+.regAgent .main .right .item {
+
+    border-bottom: 1px solid #CCCCCC;
+
+    padding-bottom: 1rem;
+
+    font-size: 2rem;
+
+    color: #666666;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 3.6rem;
+
+}
+
+
+
+.regAgent .main .right .total {
+
+    font-size: 2rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: auto;
+
+    margin-top: 14.3rem;
+
+    font-weight: 500;
+
+}
+
+
+
+.regAgent .main .right .total p.price {
+
+    font-size: 2.5rem;
+
+    font-weight: 600;
+
+}
+
+
+
+.regAgent .main .right button {
+
+    width: 100%;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+    color: white;
+
+    border-radius: 4px;
+
+    background: var(--primary-normal, #557D60);
+
+    height: 6rem;
+
+    margin-top: 3.6rem;
+
+    border-radius: .4rem;
+
+    border: 0;
+
+}
+
+
+
+.regAgent .main .right button img {
+
+    margin-left: 1.6rem;
+
+}
+
+
+
+.regAgent .main .right p.question {
+
+    font-size: 1.3rem;
+
+    text-align: center;
+
+    margin-top: 1.6rem;
+
+}
+
+
+
+.regAgent .main .right p.question span {
+
+    font-weight: 500;
+
+    color: #557D60;
+
+
+
+}
+
+
+
+.regAgent .main .right .lastP {
+
+    position: absolute;
+
+    bottom: -4.8rem;
+
+    font-size: 1.6rem;
+
+    color: #557D60;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.regAgent .main .right .lastP svg {
+
+    margin-right: .8rem;
+
+}
+
+
+
+.regAgent .main .left form .input {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 2.4rem;
+
+}
+
+
+
+.regAgent .main .left form .input label {
+
+    font-size: 1.6rem;
+
+    color: #666666;
+
+    font-weight: 500;
+
+    margin-bottom: 1.6rem;
+
+}
+
+
+
+.regAgent .main .left form .input select,
+
+.regAgent .main .left form .input input {
+
+    width: 58rem;
+
+    height: 5.6rem;
+
+    outline: none;
+
+    padding-left: 1.6rem;
+
+    border-radius: 8px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    background-color: transparent;
+
+    font-size: 1.6rem;
+
+}
+
+
+
+.regAgent .main .left form .input_half {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 2.4rem;
+
+}
+
+
+
+.regAgent .main .left form .input_half label {
+
+    font-size: 1.6rem;
+
+    color: #666666;
+
+    font-weight: 500;
+
+    margin-bottom: 1.6rem
+
+}
+
+
+
+.regAgent .main .left form .input_half input {
+
+    width: 45rem;
+
+    height: 4.6rem;
+
+    outline: none;
+
+    padding-left: 1.6rem;
+
+    border-radius: 8px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    background-color: transparent;
+
+    font-size: 1.6rem;
+
+}
+
+
+
+.regAgent .main .left form .input_half input {
+
+    text-align: left;
+
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+
+input[type="number"]::-webkit-outer-spin-button,
+
+input[type="number"]::-webkit-clear-button {
+
+    display: none;
+
+    -webkit-appearance: none;
+
+    appearance: none;
+
+}
+
+
+
+#company-tab-pane .input_half {
+
+    direction: rtl;
+
+}
+
+
+
+#company-tab-pane .input_half label {
+
+    margin-right: 18rem;
+
+}
+
+
+
+#company-tab-pane .input_half .first_lable {
+
+    margin-right: 31rem;
+
+}
+
+
+
+#company-tab-pane .input_half .second_lable {
+
+    margin-right: 24rem;
+
+}
+
+
+
+.yes_no_button {
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+.yes_no_button .label_radio {
+
+    margin-left: 14px;
+
+    margin-top: 2rem;
+
+    background-color: var(--primary-normal, #fbfbfb);
+
+    width: 51px;
+
+    height: 23px;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    border-radius: 3px;
+
+    color: #557D60;
+
+    border: 1px solid #557D60;
+
+}
+
+
+
+.label_radio input[type="radio"] {
+
+    display: none;
+
+}
+
+
+
+
+
+.label_radio.selected {
+
+    background-color: white;
+
+    border: 1px solid #557D60;
+
+    color: var(--primary-normal, #557D60);
+
+}
+
+
+
+.label_radio.selected.green {
+
+    background-color: #557D60;
+
+    /* Change to green when selected */
+
+    border: 1px solid #557D60;
+
+    /* Change border color to green when selected */
+
+    color: white;
+
+}
+
+
+
+
+
+#checkbox {
+
+    position: relative;
+
+    bottom: 10px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 10px;
+
+}
+
+
+
+#checkbox input {
+
+    position: absolute;
+
+    width: 0;
+
+    left: 50px;
+
+    height: 0;
+
+    opacity: 0;
+
+    cursor: pointer;
+
+}
+
+
+
+#checkbox .checkmark {
+
+    position: relative;
+
+    display: block;
+
+    top: 0;
+
+    left: 0;
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 20px;
+
+    background: white;
+
+    outline: 1px solid #acacac;
+
+    transition: all 0.2s ease;
+
+}
+
+
+@media (max-width: 768px) {
+    #checkbox {
+        font-size: 10px;
+    }
+
+    #checkbox .checkmark {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 23px;
+        border-radius: 20px;
+        background: white;
+        outline: 1px solid #acacac;
+        transition: all 0.2s ease;
+    }
+}
+
+
+#checkbox:hover .checkmark {
+
+    background: #f4f4f5;
+
+    transition: all 0.2s ease;
+
+}
+
+
+
+#checkbox input:checked~.checkmark {
+
+    background: var(--primary-normal, #557D60);
+
+    outline: 1px solid var(--primary-normal, #557D60);
+
+    /*margin-right: 12px;*/
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 20px;
+
+}
+
+
+
+#checkbox input[type="radio"]~.checkmark {
+
+    border-radius: 50%;
+
+}
+
+
+
+#checkbox .checkmark::after {
+
+    position: absolute;
+
+    display: block;
+
+    content: "";
+
+    left: 50%;
+
+    top: 40%;
+
+    width: 4px;
+
+    height: 8px;
+
+    border: solid white;
+
+    border-width: 0 2px 2px 0;
+
+    transform: translate(-50%, -50%) rotate(45deg);
+
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+
+    opacity: 0;
+
+    transition: all 0.2s ease;
+
+}
+
+
+
+#checkbox input:checked~.checkmark::after {
+
+    opacity: 1;
+
+    transition: all 0.2s ease;
+
+}
+
+
+
+
+
+
+
+
+
+.regAgent .main .left form .input select {
+
+    background-color: #EEF2EF;
+
+}
+
+
+
+.regAgent .main .left form .inputs {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+
+
+.regAgent .main .left form .threeInputs {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+
+
+.regAgent .main .left form .threeInputs select,
+
+.regAgent .main .left form .threeInputs input {
+
+    width: 17.7rem;
+
+}
+
+
+
+.regAgent .main .left form .threeInputs select {
+
+    background-color: white;
+
+    color: #557D60;
+
+}
+
+
+
+.regAgent .main .left form .inputs input {
+
+    width: 28.5rem;
+
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.regAgent .main .left form .inputCheck .parent {
+
+    margin-bottom: .8rem;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent svg {
+
+    margin-left: 1.6rem;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent .inputdiv {
+
+    width: 26.1rem;
+
+    height: 5.6rem;
+
+    border-radius: 8px;
+
+    border: 1px solid #557D60;
+
+    font-size: 1.6rem;
+
+    font-weight: 400;
+
+    display: flex;
+
+    align-items: center;
+
+    cursor: pointer;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent .inputdiv.active {
+
+    border: 1px solid var(--primary-normal, #557D60);
+
+    font-weight: 600;
+
+    color: #557D60;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent .inputdiv input {
+
+    appearance: none;
+
+    margin-right: .8rem;
+
+    margin-left: 1.6rem;
+
+    webkit-appearance: none;
+
+    border: 1px solid #999999;
+
+    border-radius: 100%;
+
+    width: 2.1rem;
+
+    height: 2.1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent .inputdiv input::before {
+
+    content: "";
+
+    width: 1.2rem;
+
+    height: 1.2rem;
+
+    background: #557D60;
+
+    display: none;
+
+    border-radius: 100%;
+
+}
+
+
+
+.regAgent .main .left form .inputCheck .parent .inputdiv input:checked::before {
+
+    display: flex;
+
+}
+
+
+
+.regAgent .main .left form .members {
+
+    margin-top: 2.4rem;
+
+}
+
+
+
+.regAgent .main .left form .inputValue {
+
+    display: flex;
+
+
+
+    align-items: center;
+
+}
+
+
+
+.regAgent .main .left form .inputValue label {
+
+    margin-bottom: 0;
+
+    margin-right: 2.4rem;
+
+}
+
+
+
+.regAgent .main .left form .inputValue .btns {
+
+    width: 11rem;
+
+    display: flex;
+
+    align-items: center;
+
+    height: 3.6rem;
+
+    border-radius: 4px;
+
+    border: 1px solid var(--primary-light, #CAD7CE);
+
+    background: var(--primary-lightest, #EEF2EF);
+
+    justify-content: center;
+
+}
+
+
+
+.regAgent .main .left form .inputValue .btns button {
+
+    width: 3.6rem;
+
+    background-color: white;
+
+    border: 0;
+
+    font-size: 1.6rem;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    color: #666666;
+
+
+
+    height: 100%;
+
+}
+
+
+
+.regAgent .main .left form .inputValue .btns p {
+
+    width: 3.8rem;
+
+    font-size: 1.6rem;
+
+    color: #557D60;
+
+    height: 100%;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: 600;
+
+    margin-bottom: 0;
+
+}
+.contact .toggleItem,
+.form_group_lawsuit{
+    display: none !important;
+}
+
+.regAgent .main .left .toggleBtns {
+
+    width: 46.4rem;
+
+    height: 27.2rem;
+
+    border-radius: 4px;
+
+    padding: 1.6rem 2rem;
+
+    padding-top: 2.4rem;
+
+    border: 1px solid var(--gray-scale-5, #EEE);
+
+}
+
+
+
+.regAgent .main .left .toggleItem {
+
+    font-size: 1.6rem;
+
+    color: #666666;
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 3.4rem;
+
+    cursor: pointer;
+
+}
+
+
+
+.regAgent .main .left .toggleItem img {
+
+    margin-left: 1.8rem;
+
+}
+
+
+
+.regAgent .main .left .toggleItem input {
+
+    appearance: none;
+
+    margin-right: 1.6rem;
+
+    -webkit-appearance: none;
+
+    width: 4.8rem;
+
+    height: 2.8rem;
+
+    border-radius: 5rem;
+
+    background-color: #999999;
+
+    position: relative;
+
+    transition: all .3s ease-in-out;
+
+
+
+}
+
+
+
+.regAgent .main .left .toggleItem input::before {
+
+    content: "";
+
+    width: 2rem;
+
+    top: .35rem;
+
+    height: 2rem;
+
+    background-color: white;
+
+    display: flex;
+
+    position: absolute;
+
+    left: .5rem;
+
+    border-radius: 100%;
+
+    transition: all .3s ease-in-out;
+
+}
+
+
+
+.regAgent .main .left .toggleItem input:checked {
+
+    background-color: #557D60;
+
+}
+
+
+
+.regAgent .main .left .toggleItem input:checked::before {
+
+    left: 50%;
+
+}
+
+
+
+.regAgent .main .left .paymentOptions {
+
+    display: flex;
+
+    margin-bottom: 2.4rem;
+
+}
+
+
+
+.regAgent .main .left .paymentOption input {
+
+    appearance: none;
+
+    -webkit-appearance: none;
+
+    width: 8.8rem;
+
+    cursor: pointer;
+
+    height: 5.8rem;
+
+    border-radius: 4px;
+
+    background: #FFF;
+
+    box-shadow: 0px 1px 6px 0px #CAD7CE;
+
+    margin-right: 1.8rem;
+
+    position: relative;
+
+}
+
+
+
+.regAgent .main .left .paymentOption:nth-child(1) input {
+
+    background: url("../images/Visa.png");
+
+    background-repeat: no-repeat;
+
+    background-blend-mode: multiply;
+
+    background-position: center;
+
+}
+
+
+
+.regAgent .main .left .paymentOption:nth-child(2) input {
+
+    background: url("../images/MasterCard.png");
+
+    background-repeat: no-repeat;
+
+    background-blend-mode: multiply;
+
+    background-position: center;
+
+}
+
+
+
+.regAgent .main .left .paymentOption:nth-child(3) input {
+
+    background: url("../images/Amex.png");
+
+    background-repeat: no-repeat;
+
+    background-blend-mode: multiply;
+
+    background-position: center;
+
+}
+
+
+
+.regAgent .main .left .paymentOption:nth-child(4) input {
+
+    background: url("../images/Discover.png");
+
+    background-repeat: no-repeat;
+
+    background-blend-mode: multiply;
+
+    background-position: center;
+
+}
+
+
+
+.regAgent .main .left .paymentOption input::before {
+
+    content: "";
+
+    width: 1.6rem;
+
+    height: 1.6rem;
+
+    /* background: url("../images/check.png"); */
+
+    background-position: center;
+
+    background-size: cover;
+
+    display: none;
+
+    position: absolute;
+
+    top: -.5rem;
+
+    right: -.5rem;
+
+
+
+}
+
+
+
+.regAgent .main .left .paymentOption input:checked::before {
+
+    display: flex;
+
+}
+
+
+
+.regAgent .main .left .paymentOption input:checked {
+
+    background-color: #EEF2EF;
+
+}
+
+
+
+.regAgent .main .left .payment .threeInputs {
+
+    align-items: flex-end;
+
+}
+
+
+
+.regAgent .main .left .payment .threeInputs .input {
+
+    margin-bottom: 0;
+
+}
+
+
+
+.regAgent .main .left .payment .threeInputs input {
+
+    width: 12.6rem;
+
+}
+
+
+
+header {
+
+    height: 8rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    width: 100%;
+
+    align-items: center;
+
+    background-color: #EEF2EF;
+
+}
+
+
+
+header img {
+
+    width: 6.7rem;
+
+    margin-right: 3.1rem;
+
+    height: 6.7rem;
+
+}
+
+
+
+header nav {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+header nav a {
+
+    font-size: 1.6rem;
+
+    text-decoration: none;
+
+    color: #557D60;
+
+    margin-right: 4.8rem;
+
+}
+
+
+
+header button {
+
+    width: 19.5rem;
+
+    height: 4.8rem;
+
+    border-radius: 4px;
+
+    background: var(--primary-normal, #557D60);
+
+    font-size: 1.6rem;
+
+    font-weight: 600;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border: 0;
+
+    margin-left: 18.3rem;
+
+}
+.LoginRegister .container .right .top p{
+    margin-bottom: 0;
+}
+@media screen and (max-width : 1400px) {
+    header button{
+        margin-left: 8rem;
+    }
+    .ServiceForm .SelectService {
+        width: 114rem;
+    }
+    .LoginRegister .container .right {
+        width: 57rem;
+    }
+    .LoginRegister .container .right .top{
+        padding-right: 6rem;
+    padding-left: 9rem;
+    }
+    .LoginRegister .container .right .top p{
+        margin-bottom: 0;
+    }
+    .LoginRegister .container .right form input{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width : 1200px) {
+    header{
+        height: auto;
+        padding: 2rem 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    header .ham{
+        display: flex;
+        margin-left: 2rem;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header .ham .line {
+        width: 5rem;
+        height: 0.5rem;
+        background-color: black;
+        margin-bottom: 0.7rem;
+        border-radius: 5rem;
+    }
+    header nav {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    header .headerContainer{
+        display: none;
+        width: calc(100% - 14rem);
+        flex-direction: column;
+    }
+    header .headerContainer.active{
+        display: flex;
+    }
+    header .headerContainer img{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    header .headerContainer a{
+        margin: 0;
+        margin-bottom: .6rem;
+    }
+    header .headerContainer button{
+        margin: 0;
+    }
+
+    .regAgent .main .left .management {
+        width: 93%;
+    }
+    .LoginRegister .container .left p{
+        width: 44rem;
+    }
+    .LoginRegister .container .right {
+        width: 50%;
+        padding: 2.4rem;
+    }
+    .LoginRegister .container .right .top {
+        padding-right: 4.5rem;
+        padding-left: 7rem;
+    
+    }
+    .ServiceForm .SelectService {
+    width: 96rem;
+    }
+    .ServiceForm .SelectService .right {
+        padding: 4.8rem 1.6rem;
+        width: 37.6rem;}    
+        .ServiceForm .SelectService .left .options .option {
+            width: 38.5rem;
+        }
+    .regAgent .top .tabs .ham{
+        width: 5.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .regAgent .top .tabs .ham .line{
+        width: 100%;
+        margin-bottom: .5rem;
+        height: .2rem;
+        background-color: black;
+    }
+    .regAgent .main .right{
+        width: 37rem;
+    }
+    .regAgent .main .right button,
+    .regAgent .main .right h2{
+        font-size: 1.9rem;
+    }
+    .regAgent .main .right .total p.price,
+    .regAgent .main .right .total,
+    .regAgent .main .right .item{
+        font-size: 1.5rem;
+    }
+    .regAgent .main .right button{
+        height: 5rem;
+    }
+    .regAgent .main .left form .input select, .regAgent .main .left form .input input{
+        width: 53.6rem;
+    }
+    .regAgent .main .left form .inputs input {
+        width: 25.5rem;
+    }
+    .regAgent .main .left form .threeInputs select, .regAgent .main .left form .threeInputs input{
+        width: 16.2rem
+    }
+}
+@media screen and (max-width : 992px) {
+    
+    .regAgent .main .left .management {
+        width: auto;
+    }
+    .ServiceForm .topHeading h1 {
+        font-size: 4rem;}
+    .ServiceForm .SelectService {
+        width: 72rem;
+        }
+        .ServiceForm .SelectService .right {
+            width: 27.6rem;
+        }
+        .ServiceForm .SelectService .right h1 {
+            font-size: 2.4rem;
+        }
+        .ServiceForm .SelectService .left .options .option {
+            width: 35.5rem;
+        }
+
+        .LoginRegister .container{
+            flex-direction: column;
+        }
+        .LoginRegister .container .left{
+            margin-right: 0;
+            text-align: center;
+        }
+        .LoginRegister .container .right {
+            width: 100%;
+            padding: 3.4rem;
+            margin-top: 4rem;
+        }
+        .LoginRegister .container .right .top {
+            padding-right:9.5rem;
+            padding-left: 12rem;
+        }
+    .regAgent .top .tabs ul {
+        flex-direction: column;
+        align-items: flex-end;
+        background: #f1f1f1;
+        width: 100%;
+    }
+    .regAgent .main .left form .input select, .regAgent .main .left form .input input {
+        width: 39.6rem;
+    }
+    .regAgent .main .left{
+        width: 56%;
+    }
+    .regAgent .main .right{
+        padding: 4.5rem 1.7rem 2.4rem;
+        width: 27.6rem;
+    }
+    .regAgent .main .left form .inputs input{
+        width: 19.4rem;
+    }
+    .regAgent .main .left form .threeInputs select, .regAgent .main .left form .threeInputs input{
+        width: 12.6rem;
+    }
+    .regAgent .main .left .payment .threeInputs{
+        position: relative;
+    }
+    .regAgent .main .left .payment .threeInputs svg{
+        position: absolute;
+        bottom: -30%;
+    }
+    .regAgent .main .left form .inputCheck{
+        flex-wrap: wrap;
+    }
+    .regAgent .main .left form .inputCheck .parent .inputdiv {
+        padding-left: 1.6rem;
+    }
+    .regAgent .main .left form .block4 .inputCheck .parent .inputdiv {
+        padding-left: 0;
+    }
+    .regAgent .main .left form .inputCheck .parent .inputdiv input{
+        margin-left: 0;
+    }
+    .regAgent .main .left form .inputCheck .parent .inputdiv{
+        margin-right: 1rem;
+    }
+    .regAgent .main .left form .input_half input {
+        width: 100%;
+    }
+    #company-tab-pane .input_half {
+        direction: ltr;
+    }
+    .regAgent .main .left .toggleBtns {
+        width: 100%;}
+}
+
+@media screen and (max-width : 768px) {
+    .LoginRegister .container .right .top {
+        padding-right: 5.5rem;
+        padding-left: 8rem;
+    }
+    .ServiceForm .SelectService .left .options .option {
+        width: 100%;
+    }
+    .ServiceForm .SelectService .right {
+        padding: 4.8rem 1.6rem;
+        width: 100%;
+    }
+    .ServiceForm .SelectService {
+        width: 54rem;
+        flex-direction: column;
+    }
+    .regAgent .main .right {
+        width: 100%;
+        margin-top: 5rem;
+
+    }
+    .regAgent .main{
+        flex-direction: column;
+    }
+    .regAgent .container {
+        width: 50rem;
+    }
+    .regAgent .top .mainHeading {
+        font-size: 3.1rem;
+    }
+    .regAgent .main .left form .inputs input {
+        width: 100%;
+    }
+    .regAgent .main .left form .inputs {
+        flex-direction: column;
+    }
+    .regAgent .main .left form .input select, .regAgent .main .left form .input input {
+        width: 100%;
+    }
+    .regAgent .main .left {
+        width: 100%;
+    }
+    .regAgent .main .left form .threeInputs{
+        flex-direction: column;
+    }
+    .regAgent .main .left form .threeInputs select, .regAgent .main .left form .threeInputs input {
+        width: 100%;
+    }
+    .regAgent .main .left .payment .threeInputs{
+        flex-direction: row;
+    }
+   
+    .regAgent .main .left .payment .threeInputs input{
+        width: 12.6rem;
+    }
+    
+}
+@media screen and (max-width : 575px) {
+    .ServiceForm .SelectService {
+        width: 95%;
+    }    
+    .LoginRegister .container .right .top {
+        padding-right: 13%;
+        padding-left: 18%;
+    }
+    .LoginRegister .container .right {
+        width: 95%;
+    }
+    .regAgent .container {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .regAgent .main .right{
+        padding: 4.5rem 1.7rem 2.4rem;
+    }
+    .regAgent .main .left .payment .threeInputs{
+        
+        flex-direction: column;
+    }
+    .regAgent .main .left .payment .threeInputs .input{
+        width: 100%;
+    }
+    .regAgent .main .left .payment .threeInputs .input input{
+        width: 100%;
+    }
+    .regAgent .main .left .paymentOption input {
+        width: 6.6rem;
+        height: 4.2rem;
+    }
+    .regAgent .main .left .payment .threeInputs svg {
+        position: absolute;
+        bottom: -12%;
+    }
+    .regAgent .main .left .toggleBtns {
+        width: 100%;
+    }
+    .LoginRegister .container .left {
+        width: 95%;
+    }
+    .LoginRegister .container .left h1 {
+        font-size: 4rem;
+    }
+    .LoginRegister .container .left p {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .LoginRegister .container .right .top p {
+        font-size: 2rem;
+    }
+    .CompanyService .left .options .option {
+        width: 100%;
+    }
+}
+@media screen and (max-width : 460px){
+    .LoginRegister .container .right .top {
+        padding-right: 8%;
+        padding-left: 15%;
+    }
+}
